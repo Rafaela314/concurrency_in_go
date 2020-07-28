@@ -28,6 +28,7 @@ func main() {
 		fmt.Printf("Food eith id: '%v' not found", id)
 		time.Sleep(150 * time.Millisecond)
 	}
+	time.Sleep(150 * time.Millisecond)
 }
 
 func queryCache(id int) (Food, bool) {
